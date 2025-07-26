@@ -1,1 +1,0 @@
-console.log('LIDC Server is running');
