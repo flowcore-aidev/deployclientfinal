@@ -4,7 +4,7 @@ const App = () => {
   const [msg, setMsg] = useState('Connecting to backend...')
 
   useEffect(() => {
-    const url = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000'
+    const url = import.meta.env.VITE_BACKEND_URL || 'https://deployclientfinalbackend.onrender.com'
     fetch(url + '/health').then(r => r.json()).then(d => setMsg(d.status))
       .catch(() => setMsg('Could not reach backend'))
   }, [])
