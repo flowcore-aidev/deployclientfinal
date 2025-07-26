@@ -1,0 +1,1 @@
+{"name": "lidc-client", "scripts": {"start": "vite", "build": "vite build"}}
