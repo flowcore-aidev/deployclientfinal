@@ -1,1 +1,0 @@
-{"name": "lidc-server", "scripts": {"start": "node index.js", "build": "echo Building server..."}}
